@@ -1,0 +1,74 @@
+/**index.wxss**/
+.container{
+  z-index: 9998;
+  position: relative;
+  top: 15vh;
+}
+.userinfo {
+  position: fixed;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title{
+  text-align: center;
+  font-size: 45rpx;
+  font-weight: bold;
+  color: rgb(12,100,137);
+}
+.test-bottom{
+  text-align: center;
+  color: #608a92;
+  width: 250rpx;
+  border:20rpx solid rgb(173,227,237);
+  border-radius: 15rpx;
+  margin-top: 25rpx;
+  background-color: rgb(173,227,237);
+}
+.tembar{
+  margin-top: 25rpx;
+  width: 100vw;
+}
+/**2 cicle in the top**/
+.c1{
+  z-index: 9998;
+  position: fixed;
+  right: -5rpx;
+  width: 280rpx;
+  height: 280rpx;
+  border-radius: 140rpx;
+  background-color: rgb(10,119,139);
+}
+.c1-text{
+  z-index: 9999;
+  right:3vw ;
+  text-align: center;
+  position: fixed;
+  top: 100rpx;
+}
+.c2{
+    z-index: 9997;
+    position: fixed;
+    top: 210rpx;
+    right: -20px;
+    width: 260rpx;
+    height: 260rpx;
+    border-radius: 130rpx;
+    opacity: 0.9;
+    background-color: rgb(10,119,139);
+}
+.c2-text{
+  z-index: 9999;
+  text-align: center;
+  position: fixed;
+  right: 10vw;
+  top: 312rpx;
+}
+.userinfo-avatar {
+  overflow: hidden;
+  width: 64rpx;
+  height: 64rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}

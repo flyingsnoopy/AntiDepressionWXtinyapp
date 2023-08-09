@@ -1,0 +1,41 @@
+/* pages/HAM/HAM.wxss */
+.container{
+  z-index: 9998;
+  position: relative;
+  width: 90vw;
+  height: 10vh;
+  gap: 5vh;
+}
+.items{
+  display: flex;
+  flex-direction: column;
+  left: 10vws;
+  margin-top: 25rpx;
+  width: 80vw;
+  text-align: center;
+  gap: 5vh;
+}
+.item-1{
+  border-radius: 15rpx;
+  border:20rpx solid rgb(209,232,238);
+  background-color: rgb(209,232,238);
+}
+.item-2{
+  border-radius: 15rpx;
+  border:20rpx solid rgb(167,225,236);
+  background-color: rgb(167,225,236);
+}
+.item-3{
+  border-radius: 15rpx;
+  border:20rpx solid rgb(148,208,219);
+  background-color: rgb(148,208,219);
+}
+.item-4{
+  border-radius: 15rpx;
+  border:20rpx solid rgb(133,187,197);
+  background-color: rgb(133,187,197);
+}
+.title-text{
+  font-size: 40rpx;
+  font-weight: bold;
+}

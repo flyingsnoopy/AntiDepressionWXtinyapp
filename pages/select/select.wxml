@@ -1,0 +1,10 @@
+<!--pages/check/check.wxml-->
+<view class="container">
+  <view class="title-text">Select a questionnaire</view>
+  <view class="items">
+    <view class="item-1" bindtap="jumpToSDS">SDS</view>
+    <view class="item-2" bindtap="jumpToSD">Similing depression</view>
+    <view class="item-3" bindtap="jumpToHAM">HAMILTON</view>
+    <view class="item-4" bindtap="jumpToCESD">CES-D</view>
+  </view>
+</view>

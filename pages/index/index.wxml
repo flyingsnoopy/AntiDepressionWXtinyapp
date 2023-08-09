@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="userinfo" >
+    <block wx:if="{{canIUseOpenData}}">
+      <view class="userinfo-avatar" bindtap="bindViewTap">
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+    </block>
+    <block wx:elif="{{!hasUserInfo}}">
+      <button wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 获取头像昵称 </button>
+      <button wx:elif="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+      <view wx:else> 请使用1.4.4及以上版本基础库 </view>
+    </block>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+</view>
+<view class="c1">
+  <text class="c1-text">Mental Health\nGames</text>
+</view>
+<view class="c2">
+  <text class="c2-text">chat</text>
+</view>
+<view class="container">
+  <view class="title">HI! <open-data type="userNickName"></open-data> <text>\nHow do you feel?</text> </view>
+  <view class="test-bottom" bindtap="jumpToCheck">Let's check</view>
+  <view class="tembar"><image src="/staic/tembar.png"></image></view>
+</view>
+<!--<open-data type="userNickName"></open-data>获取用户名-->
