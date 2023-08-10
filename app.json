@@ -7,7 +7,10 @@
     "pages/SD/SD",
     "pages/HAM/HAM",
     "pages/CESD/CESD",
-    "pages/result/result"
+    "pages/result/none/none",
+    "pages/result/light/light",
+    "pages/result/middle/middle",
+    "pages/result/heavy/heavy"
   ],
   "window": {
     "backgroundTextStyle": "light",

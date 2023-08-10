@@ -1,4 +1,4 @@
-// pages/result/result.js
+// pages/result/light/light.js
 Page({
 
   /**
