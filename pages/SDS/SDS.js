@@ -104,4 +104,16 @@ Page({
     })
     this.Finish()
   }
+  nextStepB(){
+    if (this.data.i == 0||this.data.i == 2||this.data.i == 3||this.data.i == 6||this.data.i == 7||this.data.i == 8||this.data.i == 9||this.data.i == 12||this.data.i == 14||this.data.i == 18){
+      this.data.score = this.data.score + 2
+    }else{
+      this.data.score = this.data.score + 3
+    }
+    this.data.i++
+    this.setData({
+      "display":this.data.text[this.data.i]
+    })
+    this.Finish()
+  }
 })
