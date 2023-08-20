@@ -16,6 +16,11 @@ Page({
       url: '../select/select',
     })
   },
+  jumpToTreat(){
+    wx.navigateTo({
+      url: '../musictreat/musictreat',
+    })
+  },
   bindViewTap() {
     wx.navigateTo({
       url: '../logs/logs'

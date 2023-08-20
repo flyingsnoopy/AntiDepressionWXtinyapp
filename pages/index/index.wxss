@@ -1,4 +1,12 @@
 /**index.wxss**/
+.boby{
+  position: fixed;
+  left: 0rpx;
+  top: 0rpx;
+  width: 100vw;
+  height: 100vh;
+  background-color:#b5eef9 ;
+}
 .container{
   z-index: 9998;
   position: relative;
@@ -15,16 +23,25 @@
   text-align: center;
   font-size: 45rpx;
   font-weight: bold;
-  color: rgb(12,100,137);
+  color: black;
 }
 .test-bottom{
   text-align: center;
-  color: #608a92;
+  color: black;
   width: 250rpx;
-  border:20rpx solid rgb(173,227,237);
+  border:20rpx solid #70b6c2;
   border-radius: 15rpx;
   margin-top: 25rpx;
-  background-color: rgb(173,227,237);
+  background-color: #70b6c2;
+}
+.music-treat-bottom{
+  text-align: center;
+  color: black;
+  width: 250rpx;
+  border:20rpx solid #287f89;
+  border-radius: 15rpx;
+  margin-top: 25rpx;
+  background-color: #287f89;
 }
 .tembar{
   margin-top: 25rpx;

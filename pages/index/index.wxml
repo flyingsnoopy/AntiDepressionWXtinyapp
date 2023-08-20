@@ -1,4 +1,5 @@
 <!--index.wxml-->
+<view class="boby"></view>
 <view class="userinfo" >
     <block wx:if="{{canIUseOpenData}}">
       <view class="userinfo-avatar" bindtap="bindViewTap">
@@ -15,15 +16,10 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
 </view>
-<view class="c1">
-  <text class="c1-text">Mental Health\nGames</text>
-</view>
-<view class="c2">
-  <text class="c2-text">chat</text>
-</view>
+<!--<view class="c1"><text class="c1-text">Mental Health\nGames</text></view>-->
+<!--<view class="c2"><text class="c2-text">chat</text></view>-->
 <view class="container">
-  <view class="title">HI! <open-data type="userNickName"></open-data> <text>\nHow do you feel?</text> </view>
-  <view class="test-bottom" bindtap="jumpToCheck">Let's check</view>
-  <view class="tembar"><image src="/staic/tembar.png"></image></view>
+  <view class="title">你好！  <text>\n</text> <open-data type="userNickName"></open-data> </view>
+  <view class="test-bottom" bindtap="jumpToCheck">开始检测</view>
+  <view class="music-treat-bottom" bindtap="jumpToTreat">音乐疗法</view>
 </view>
-<!--<open-data type="userNickName"></open-data>获取用户名-->

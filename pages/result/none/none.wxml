@@ -1,2 +1,7 @@
 <!--pages/result/none/none.wxml-->
-<text>您没有抑郁</text>
+<image src="/staic/cactus.png"/>
+<view class="container-result">
+  <view class="title">分数-没有抑郁</view>
+  <view class="text">保持阳光的心态！</view>
+  <view class="back-button" bindtap="jumpBack">返回</view>
+</view>

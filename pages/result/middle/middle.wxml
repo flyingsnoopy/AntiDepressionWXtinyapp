@@ -1,2 +1,7 @@
 <!--pages/result/middle/middle.wxml-->
-<text>您有中度抑郁</text>
+<image src="/staic/cactus.png"/>
+<view class="container-result">
+  <view class="title">分数-中度抑郁</view>
+  <view class="text">很多患者会在这个区间保持很长时间，有的可以长达数月或数年。管这个程度的抑郁是很有希望康复的，但抑郁症患者往往很悲观，他们觉得自己是有缺陷的，觉得自己天生不如人，也不会感到一丝一毫的快乐或满足感。</view>
+  <view class="back-button" bindtap="jumpBack">返回</view>
+</view>

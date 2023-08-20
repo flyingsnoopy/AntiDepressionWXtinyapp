@@ -1,4 +1,11 @@
 /**app.wxss**/
+image{
+  position: fixed;
+  left: 20rpx;
+  top:10rpx;
+  width: 200rpx;
+  height: 300rpx;
+}
 .container {
   height: 100%;
   display: flex;

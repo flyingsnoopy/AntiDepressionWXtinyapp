@@ -62,5 +62,10 @@ Page({
    */
   onShareAppMessage() {
 
+  },
+  jumpBack(){
+    wx.navigateBack({
+      delta:3
+    })
   }
 })

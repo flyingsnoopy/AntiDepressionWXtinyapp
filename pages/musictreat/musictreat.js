@@ -1,4 +1,4 @@
-// pages/result/light/light.js
+// pages/musictreat/musictreat.js
 Page({
 
   /**
@@ -62,10 +62,5 @@ Page({
    */
   onShareAppMessage() {
 
-  },
-  jumpBack(){
-    wx.navigateBack({
-      delta:3
-    })
   }
 })

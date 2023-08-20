@@ -10,7 +10,8 @@
     "pages/result/none/none",
     "pages/result/light/light",
     "pages/result/middle/middle",
-    "pages/result/heavy/heavy"
+    "pages/result/heavy/heavy",
+    "pages/musictreat/musictreat"
   ],
   "window": {
     "backgroundTextStyle": "light",

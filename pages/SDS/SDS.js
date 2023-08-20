@@ -22,7 +22,6 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady() {
-
   },
 
   /**
@@ -87,7 +86,9 @@ Page({
             url: '../result/heavy/heavy',
           })
       }else{
-
+          wx.navigateTo({
+            url: '../result/none/none',
+          })
       }
     }
   },

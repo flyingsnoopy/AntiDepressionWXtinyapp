@@ -1,2 +1,7 @@
 <!--pages/result/heavy/heavy.wxml-->
-<text>您有重度抑郁</text>
+<image src="/staic/cactus.png"/>
+<view class="container-result">
+  <view class="title">分数-重度抑郁</view>
+  <view class="text">这个阶段会导致难以想象的痛苦，但仍然是有可能改善康复的，这个区间的患者很需要专业性治疗。重度抑郁就像迷失在森林之中，会觉得很害怕，因为越往里走，森林就越发幽深寒冷，找不到回家的路。所以在这种情况下，你需要找一位你喜欢并且信任的向导，在她/他的指引下，走向一个安全的地方。</view>
+  <view class="back-button" bindtap="jumpBack">返回</view>
+</view>
