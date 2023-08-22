@@ -35,6 +35,11 @@
   border:20rpx solid rgb(133,187,197);
   background-color: rgb(133,187,197);
 }
+.item-5{
+  border-radius: 15rpx;
+  border:20rpx solid #79a8b0;
+  background-color: #79a8b0;
+}
 .title-text{
   font-size: 40rpx;
   font-weight: bold;

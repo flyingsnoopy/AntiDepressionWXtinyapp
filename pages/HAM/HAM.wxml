@@ -1,2 +1,14 @@
 <!--pages/HAM/HAM.wxml-->
-<text>pages/HAM/HAM.wxml</text>
+<view class="container">
+  <view class="title-text">{{display}}</view>
+  <view class="items">
+    <view class="item-1" bindtap="nextStepA" wx:if="{{displaySet!=0&&displaySet!=4}}">无</view>
+    <view class="item-1" bindtap="nextStepA" wx:if="{{displaySet==0}}">知道自己有病，表现为抑郁</view>
+    <view class="item-1" bindtap="nextStepA" wx:if="{{displaySet==4}}">无/不适用</view>
+    <view class="item-2" bindtap="nextStepB">{{displayB}}</view>
+    <view class="item-3" bindtap="nextStepC" wx:if="{{displaySet<=4}}">{{displayC}}</view>
+    <view class="item-4" bindtap="nextStepD" wx:if="{{displaySet>=2&&displaySet<=3}}">{{displayD}}</view>
+    <view class="item-5" bindtap="nextStepE" wx:if="{{displaySet==3}}">{{displayE}}</view>
+  </view>
+</view>
+

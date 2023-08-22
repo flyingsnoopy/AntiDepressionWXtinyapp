@@ -3,8 +3,8 @@
   <view class="title-text">选择一份问卷</view>
   <view class="items">
     <view class="item-1" bindtap="jumpToSDS">SDS</view>
-    <view class="item-2" bindtap="jumpToSD">Similing depression</view>
-    <view class="item-3" bindtap="jumpToHAM">HAMILTON</view>
+    <view class="item-2" bindtap="jumpToSD">微笑抑郁症</view>
+    <view class="item-3" bindtap="jumpToHAM">汉密尔顿</view>
     <view class="item-4" bindtap="jumpToCESD">CES-D</view>
   </view>
 </view>

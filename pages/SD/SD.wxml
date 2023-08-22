@@ -1,2 +1,10 @@
 <!--pages/SD/SD.wxml-->
-<text>pages/SD/SD.wxml</text>
+<view class="container">
+  <view class="title-text">{{display}}</view>
+  <view class="items">
+    <view class="item-1" bindtap="nextStepA">A 没有</view>
+    <view class="item-2" bindtap="nextStepB">B 轻度</view>
+    <view class="item-3" bindtap="nextStepC">C 中度</view>
+    <view class="item-4" bindtap="nextStepD">D 重度</view>
+  </view>
+</view>

@@ -1,0 +1,7 @@
+<!--pages/result/seldom/seldom.wxml-->
+<image src="/staic/cactus.png"/>
+<view class="container-result">
+  <view class="title">分数-偶有抑郁</view>
+  <view class="text">尽管可能偶有乌云，天空依然晴朗</view>
+  <view class="back-button" bindtap="jumpBack">返回</view>
+</view>

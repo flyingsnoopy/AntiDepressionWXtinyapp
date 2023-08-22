@@ -11,7 +11,8 @@
     "pages/result/light/light",
     "pages/result/middle/middle",
     "pages/result/heavy/heavy",
-    "pages/musictreat/musictreat"
+    "pages/musictreat/musictreat",
+    "pages/result/seldom/seldom"
   ],
   "window": {
     "backgroundTextStyle": "light",

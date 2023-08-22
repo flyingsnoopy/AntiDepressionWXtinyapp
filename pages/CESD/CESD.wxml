@@ -1,2 +1,10 @@
 <!--pages/CESD/CESD.wxml-->
-<text>pages/CESD/CESD.wxml</text>
+<view class="container">
+  <view class="title-text">{{display}}</view>
+  <view class="items">
+    <view class="item-1" bindtap="nextStepA">A 几乎没有</view>
+    <view class="item-2" bindtap="nextStepB">B 很少有</view>
+    <view class="item-3" bindtap="nextStepC">C 经常有</view>
+    <view class="item-4" bindtap="nextStepD">D 差不多一直有</view>
+  </view>
+</view>
