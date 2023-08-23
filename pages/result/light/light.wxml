@@ -1,7 +1,8 @@
 <!--pages/result/light/light.wxml-->
 <image src="/staic/cactus.png"/>
 <view class="container-result">
-  <view class="title">分数-轻度抑郁</view>
+  <view class="title">分数-{{score}}</view>
   <view class="text">这个分数反映的是正常的情绪波动。这个得分就像发低烧，虽然并不严重，但还是会觉得浑身无力，没有干劲，而且如果任由这种轻微情绪自由发展，通常会变得更糟。</view>
   <view class="back-button" bindtap="jumpBack">返回</view>
+  <view class="help-button">寻求老师帮助</view>
 </view>

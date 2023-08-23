@@ -1,4 +1,5 @@
 // pages/SD/SD.js
+const app = getApp()
 Page({
 
   /**
@@ -72,6 +73,7 @@ Page({
   //检测列表是否完成
   Finish(){
     if (this.data.i>14){
+      wx.setStorageSync('score', this.data.score)
       if(this.data.score>=0&&this.data.score<=4){
         wx.navigateTo({
           url: '../result/none/none',
@@ -94,6 +96,7 @@ Page({
         })
       }  
     }
+
   },
   //事件处理函数
   nextStepA(){

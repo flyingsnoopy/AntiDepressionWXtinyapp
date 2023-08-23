@@ -38,3 +38,15 @@
   border: 30rpx solid #f3c1c4;
   border-radius: 20rpx;
 }
+.help-button{
+  position: relative;
+  top: 17vh;
+  left: 25vw;
+  text-align: center;
+  font-size: 4.5vw;
+  font-weight: bolder;
+  background-color: #ebeaf0;
+  border: 30rpx solid #ebeaf0;
+  border-radius: 20rpx;
+  box-shadow: 10px 5px 5px #dee0ec;
+}

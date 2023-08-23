@@ -1,7 +1,7 @@
 <!--pages/result/none/none.wxml-->
 <image src="/staic/cactus.png"/>
 <view class="container-result">
-  <view class="title">分数-没有抑郁</view>
+  <view class="title">分数-{{score}}</view>
   <view class="text">保持阳光的心态！建议可以了解一些必要的心理学相关知识，保持健康心理状态</view>
   <view class="back-button" bindtap="jumpBack">返回</view>
 </view>

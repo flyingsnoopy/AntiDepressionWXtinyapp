@@ -72,6 +72,7 @@ Page({
   },
   Finish(){
     if (this.data.i>19){
+      wx.setStorageSync('score', this.data.score)
       if(this.data.score>=0&&this.data.score<=15){
         wx.navigateTo({
           url: '../result/none/none',

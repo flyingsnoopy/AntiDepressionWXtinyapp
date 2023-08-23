@@ -89,6 +89,7 @@ Page({
   //检测列表是否完成
   Finish(){
     if (this.data.i>23){
+      wx.setStorageSync('score', this.data.score)
       if(this.data.score>=0&&this.data.score<8){
         wx.navigateTo({
           url: '../result/none/none',

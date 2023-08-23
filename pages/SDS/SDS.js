@@ -71,6 +71,7 @@ Page({
   },
   //检测列表是否完成
   Finish(){
+    wx.setStorageSync('score', this.data.score)
     if (this.data.i>19){
       var fScore = this.data.score*1.5
       if(fScore>=53&&fScore<=62){
